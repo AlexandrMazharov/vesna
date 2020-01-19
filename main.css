@@ -49,6 +49,7 @@ body {
 }
 
 .main_nav > .item {
+  color: #129772;
   box-sizing: border-box;
   display: inline-block;
   flex: 1 1 auto;
@@ -85,10 +86,12 @@ body {
 .nav_item_link:hover:after {
   transform: scale(1);
 }
-a {
-  color: #003333;
+a {  
   text-decoration: none;
+  color: inherit;
 }
+
+
 /*logo*/
 .logo_main {
   /*background-color: beige;*/
@@ -161,6 +164,8 @@ p.club_str {
   justify-content: space-between;
 }
 
+
+
 p {
   margin: 5px;
 }
@@ -181,9 +186,11 @@ p {
 
 }
 .table-column:nth-child(2) {
-  border-left: 3px solid #003333;
+  border-left: 3px solid #129772;
   
 }
+
+
 
 .table_menu {
   display: flex;
@@ -191,12 +198,12 @@ p {
   align-items: center;
   flex-grow: 3;
 }
-.conteriner-buttom {
+.conteriner-button {
   text-align: center;
   box-sizing: padding-box;
   margin: 10px;
 }
-.buttom-link {
+.button-link {
   box-sizing: padding-box;
   border-radius: 10px;
   font-size: 36px;
@@ -206,7 +213,17 @@ p {
   border: 2px solid #129772;
 }
 
-.buttom-link:hover {
+.text-tell::before{
+  content: "";
+  background:url(img/tell_icon.png) ;
+  display: inline-block;  
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
+}
+.button-link:hover
+ {
   border-radius: 10px;
   font-size: 36px;
   background-color: white;
@@ -214,6 +231,15 @@ p {
   border-color: #129772;
   border: 2px solid;
   padding: 5px;
+}
+.button-link:hover .text-tell::before{
+  content: "";
+  background:url(img/tell_icon_blue.png) ;
+  display: inline-block;  
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
 }
 
 .verical-align-flex{

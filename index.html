@@ -11,6 +11,7 @@
 
   </head>
   <body>
+    <a name="top"></a>
     <div class="header_contact">
       <div class="work_time">с 12:00 до 00:00</div>
       <div class="work_adr">Молодогвардейская 92, Самара</div>
@@ -18,16 +19,16 @@
     <div class="wrapper">
       <nav class="main_nav">
         <div class="item">
-          <a class="nav_item_link" href="#">Чайный клуб</a>
+          <a class="nav_item_link" href="#tea_club">Чайный клуб</a>
         </div>
         <div class="item">
-          <a class="nav_item_link" href="#">Меню</a>
+          <a class="nav_item_link" href="#tea_menu">Меню</a>
         </div>
         <div class="item">
           <a class="nav_item_link" href="#">Пространство</a>
         </div>
         <div class="item">
-          <a class="nav_item_link" href="#">Контакты</a>
+          <a class="nav_item_link" href="#contacts">Контакты</a>
         </div>
       </nav>
 
@@ -40,7 +41,8 @@
         <h2 class="club-name">Весна, Лето, Осень, Зима и снова... Весна</h2>
         <div class="main_item">
           <div class="conteiner">
-            <h3 class="heading">Что такое чайный клуб?</h3>
+           
+            <h3 id = "tea_club" class="heading">Что такое чайный клуб?</h3>
             <p class="text">
               Пространство для чаепитий и приятного общения.<br />
               У нас представлен традиционный китайский чай, привезенный<br />
@@ -63,7 +65,7 @@
         <div class="main_item">
           <img src="img/rafailka.jpg" class="img-left" alt="" />
           <div class="conteiner what-is-menu">
-            <h3 class="heading">Что у нас можно попробовать?</h3>
+            <h3 class="heading" id="tea_menu">Что у нас можно попробовать?</h3>
             <div class="table_menu">
               <div class="table-column">
                 <p class="text">
@@ -83,27 +85,31 @@
               </div>
             </div>
             <div class="conteriner-buttom">
-              <a href="#" class="buttom-link">Открыть полное меню</a>
+              <a href="#" class="button-link">Открыть полное меню</a>
             </div>
           </div>
         </div>
 
         <div class="main_item">
           <div class="conteiner verical-align-flex">
-            <h3 class="heading">Контакты</h3>
+            <h3 class="heading" id="contacts">Контакты</h3>
             <p class="text">
               Забронировать столик или задать интересующий вас <br />
               вопрос, вы можете, позвонив по телефону
             </p>
-            <span class="buttom-link"> +7 (927)-726-74-80</span>
+            <div class="button-link ">
+              <a class="text-tell" href="tel:+79277267480">+7 (927)-726-74-80</a>
+              
+             
+            </div>
             
             <p class="text">
               Информацию о мероприятиях и актуальных предложениях вы можете
               посмотреть в наших социальных сетях!
             </p>
             <span class="icons_vk_inst">
-              <img src="img//icon_vk.png" class="icons_vk_inst" />
-              <img src="img/icon_inst.png" class="icons_vk_inst" />
+             <a href="https://vk.com/vesna_tea"> <img src="img//icon_vk.png" class="icons_vk_inst" /></a>
+              <a href="https://www.instagram.com/vesna__tea/"><img src="img/icon_inst.png" class="icons_vk_inst" /></a>
             </span>
           </div>
           <img src="img/cup_contacts.jpg" alt="" class="img-right" />
