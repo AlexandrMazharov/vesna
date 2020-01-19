@@ -1,5 +1,4 @@
 body {
-  
   width: 100%;
   height: 100%;
   padding: 0;
@@ -28,7 +27,6 @@ body {
   margin-right: 30px;
 }
 .wrapper {
-  
   margin: 0 auto;
   width: 1230px;
 }
@@ -108,64 +106,86 @@ img > .img_main {
   z-index: 100;
 }
 /*club*/
- h2 {
-   margin-top: 50px;
+h2 {
+  margin-top: 50px;
   font-weight: normal;
   font-style: normal;
   text-align: center;
   font-size: 36px;
   color: #b62d00;
 }
-p.club_str{
-  
+p.club_str {
   color: #003333;
 
   font-size: 14px;
 }
-.what-is{
+.main_item {
   display: flex;
   justify-content: space-between;
-
 }
-.what-is img{
+#place-1 {
   width: 325px;
   height: 325px;
   margin-right: 70px;
-  
 }
-.heading{
+.heading {
   font-weight: normal;
-color:#129772;
-font-size:36px;
-text-align: center;
-margin:10px 0px;
+  color: #129772;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px 0px;
 }
 
-
-.text{
-margin: 0px 15px;;
+.text {
+  margin: 0px 15px;
   font-size: 24px;
-  color:#01474a;
+  color: #01474a;
   text-align: center;
 }
-.my-bonus{
-margin-top: 20px;
-display: flex;
-justify-content: space-between;
-
+.my-bonus {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-p{margin:5px;}
-.my-bonus .item{
+p {
+  margin: 5px;
+}
+.what-is-menu {
+  flex-grow: 3;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.my-bonus .item {
   font-size: 24px;
   color: white;
-  background-color:#940000;
+  background-color: #940000;
   padding: 0 10px;
+}
+.table_menu:nth-child(2){
+  border-left: 2px;
+  border-color: #003333;
+}
+
+
+.table_menu {
   
-
-
-
-  }
-
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 3;
+  
+}
+.conteriner-buttom{
+  text-align: center;
+  
+}
+.buttom-link{
+  border-radius: 10px;
+  font-size: 36px;
+  background-color: #129772; ;
+  color:white;
+  padding: 5px;
 }
