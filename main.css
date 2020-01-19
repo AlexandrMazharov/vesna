@@ -1,5 +1,5 @@
 body {
-  background-image: url(img/back.jpg);
+  
   width: 100%;
   height: 100%;
   padding: 0;
@@ -28,7 +28,7 @@ body {
   margin-right: 30px;
 }
 .wrapper {
-  background-color: #f0f0f0;
+  
   margin: 0 auto;
   width: 1230px;
 }
@@ -114,11 +114,58 @@ img > .img_main {
   font-style: normal;
   text-align: center;
   font-size: 36px;
-  color: #db0000;
+  color: #b62d00;
 }
 p.club_str{
   
   color: #003333;
 
   font-size: 14px;
+}
+.what-is{
+  display: flex;
+  justify-content: space-between;
+
+}
+.what-is img{
+  width: 325px;
+  height: 325px;
+  margin-right: 70px;
+  
+}
+.heading{
+  font-weight: normal;
+color:#129772;
+font-size:36px;
+text-align: center;
+margin:10px 0px;
+}
+
+
+.text{
+margin: 0px 15px;;
+  font-size: 24px;
+  color:#01474a;
+  text-align: center;
+}
+.my-bonus{
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+
+}
+
+p{margin:5px;}
+.my-bonus .item{
+  font-size: 24px;
+  color: white;
+  background-color:#940000;
+  padding: 0 10px;
+  
+
+
+
+  }
+
+
 }
