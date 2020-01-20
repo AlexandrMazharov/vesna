@@ -260,6 +260,34 @@ img.icons_vk_inst
 
 p.place{
   font-size: 30px ;
+}
+.conteiner-vertical{
+  padding-left: 30px;
+  box-sizing: border-box;
+  width: 50%;  
+  
+}
+div .conteiner-maps{
+  width: 50%;
+  height: 100%;
+}
+div .conteiner_place{  
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+div .img-place{
+  width:610px;
+  display: flex;
+  justify-content: space-between;
 
 }
+img.img_place{
+width: 280px;
+height: 280px;
 
+}
+.text_place{
+  display: flex;
+  align-items: center;
+}
