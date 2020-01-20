@@ -7,7 +7,10 @@ body {
   background-color: #b7cdc3;
 }
 .shadow {
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.shadow:hover{
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .header_contact {
   min-width: 1230px;
@@ -31,7 +34,7 @@ body {
   margin-right: 30px;
 }
 .wrapper {
-  background-color: white;
+  background-color: #FAFAFA;
   margin: 0 auto;
   width: 1230px;
 }
@@ -154,9 +157,7 @@ p.club_str {
   text-align: center;
   margin: 10px 0px;
 }
-.heading:hover {
-  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
-}
+
 .text {
   margin: 0px 15px;
   font-size: 24px;
