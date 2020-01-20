@@ -262,32 +262,39 @@ p.place{
   font-size: 30px ;
 }
 .conteiner-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-left: 30px;
   box-sizing: border-box;
   width: 50%;  
   
 }
 div .conteiner-maps{
+  box-sizing: border-box;
+  border: 10px solid #e5e5e5;
+  
   width: 50%;
   height: 100%;
 }
-div .conteiner_place{  
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-}
-div .img-place{
-  width:610px;
-  display: flex;
-  justify-content: space-between;
 
-}
 img.img_place{
 width: 280px;
 height: 280px;
 
 }
-.text_place{
+.conteiner_place{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+span.text_place.text{
+  box-sizing: border-box;
+  border-bottom: 10px solid #e5e5e5;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  background-color: #e5e5e5;
+  
   display: flex;
   align-items: center;
 }
