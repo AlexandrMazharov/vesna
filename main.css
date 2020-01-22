@@ -213,13 +213,24 @@ h3.heading::before {
   color: #01474a;
   text-align: center;
 }
-
+.main_item .string{
+  position: relative;
+}
 .red-string-conteiner {
+  
+  
   width: 100%;
   margin-top: 20px;
+  
   display: flex;
   justify-content: space-between;
+  
 }
+
+
+
+
+
 
 p {
   margin: 5px;
@@ -459,6 +470,35 @@ span.text_place.text {
   }
 }
 
+@media screen and (min-width:1300px){
+  .red-string-conteiner {
+    position: absolute;
+    left:-20px ;
+    width: 100%;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .red-string-conteiner::after{
+  
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 0px;
+      top: 100%;
+      border-width: 5px 10px;
+      border-style: solid;
+      border-color: #4b0000 #4b0000 transparent transparent;
+    
+  
+  }
+  
+}
+
 @media screen and (max-width: 1000px) {
   p.text {
     text-align: justify;
@@ -520,4 +560,6 @@ span.text_place.text {
     justify-content: space-around;
     
     }
+
 }
+
