@@ -240,19 +240,17 @@ p {
 div.red-string.item:last-child {
   margin-right: 0px;
 }
-.table-column {
-  flex-grow: 2;
-}
 
-.table-column:nth-child(2) {
-  border-left: 3px solid #129772;
+
+.border{
+  width: 3px;
+  background-color: #129772;
 }
 
 .table_menu {
+  margin:30px 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-grow: 3;
+  justify-content: space-between;  
 }
 
 .conteriner-button {
@@ -449,9 +447,16 @@ span.text_place.text {
     apacity: 1;
   }
 }
+
 @media screen and (max-width: 1000px) {
-    .text{
+   p.text{
         text-align:justify;
+        width: 100%;
+    }
+    .
+    div .table-column{
+      
+      text-align: justify;
     }
   .work_time {
     text-align: center;
