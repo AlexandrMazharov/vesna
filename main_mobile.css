@@ -1,0 +1,8 @@
+.main_item {
+  background-color: yellow;
+  flex-direction: column;
+}
+
+.red-string-conteiner {
+  flex-direction: column;
+}
