@@ -450,6 +450,9 @@ span.text_place.text {
   }
 }
 @media screen and (max-width: 1000px) {
+    .text{
+        text-align:justify;
+    }
   .work_time {
     text-align: center;
   }
