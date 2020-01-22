@@ -395,7 +395,7 @@ span.text_place.text {
 .text-slyder {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 15px 15px;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -499,4 +499,5 @@ span.text_place.text {
     display: flex;
     justify-content: space-around;
     
+}
 }
