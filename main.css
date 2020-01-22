@@ -260,6 +260,7 @@ div.red-string.item:last-child {
 }
 
 .button-link {
+  
   box-sizing: padding-box;
   border-radius: 10px;
   font-size: 36px;
