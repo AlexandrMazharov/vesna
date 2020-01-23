@@ -84,6 +84,48 @@ span.footer {
 }
 
 /*кнопки главное меню*/
+.nav_item_link {
+  font-size: 36px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10 15px;  
+  border-bottom: 2px solid #d6f3e8 ;
+  border-top:  2px solid #d6f3e8 ;
+  padding-left: 10px;
+  
+  color: #129772;
+}
+.nav_item_link:first-child {
+  margin-left: 20px;
+}
+.nav_item_link:last-child{
+  margin-right: 20px;
+}
+
+.nav_item_link span {
+  position: relative;
+}
+
+.nav_item_link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 100%;
+  background: #d6f3e8;
+  transition: .3s ease-in-out;
+}
+
+.nav_item_link:hover::before {
+  width: 100%;
+}
+
 /*
 .main_nav>.item {
   box-sizing: border-box;
