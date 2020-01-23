@@ -269,17 +269,21 @@ p.club_str {
 }
 
 .main_item {
+  padding:4px;
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
 }
 
 .img-right {
+  box-sizing: border-box;
   display: inline-block;
   width: 26%;
   height: 26%;
   margin-right: 5%;
   margin-top: 3%;
+  padding: 5px;
+  border: 4px solid #b62d00;
 }
 
 .img-left {
@@ -288,6 +292,8 @@ p.club_str {
 
   margin-left: 5%;
   margin-top: 3%;
+  padding: 5px;
+  border: 4px solid #b62d00;
 }
 
 /*
@@ -504,8 +510,10 @@ div .conteiner-maps {
 }
 
 img.img_place {
-  width: 280px;
-  height: 280px;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 4px solid #b62d00;
 }
 
 .conteiner_place {
