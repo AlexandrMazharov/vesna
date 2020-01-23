@@ -8,7 +8,20 @@ body {
   background-size: 100%;
   background-attachment: fixed;
 }
-
+.upper {
+  content: url(img/upper.png);    
+  position: fixed;
+  width: 50px;
+  left: 20px;
+  bottom: 20px;
+  opacity: 0.7;
+  background-color: white;
+  border-radius: 100%;
+  z-index: 1000;;
+}
+.upper:hover{
+  opacity: 1;
+}
 .shadow {
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -60,7 +73,6 @@ span.footer {
   background-color: #fafafa;
   margin: 0 auto;
   max-width: 1230px;
-  
 }
 
 .conteiner {
@@ -93,18 +105,18 @@ span.footer {
   line-height: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10 15px;  
+  padding: 10 15px;
   /*border-bottom: 2px solid #d6f3e8 ;
   border-top:  2px solid #d6f3e8 ;
   */
   padding-left: 10px;
-  
+
   color: #129772;
 }
 .nav_item_link:first-child {
   margin-left: 20px;
 }
-.nav_item_link:last-child{
+.nav_item_link:last-child {
   margin-right: 20px;
 }
 
@@ -120,7 +132,7 @@ span.footer {
   width: 35px;
   height: 100%;
   background: #d6f3e8;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .nav_item_link:hover::before {
@@ -228,7 +240,6 @@ a {
 /*logo*/
 
 .logo_main {
-  
   /*background-color: beige;*/
   width: 100%;
   display: flex;
@@ -241,11 +252,9 @@ img.img_main {
   box-sizing: border-box;
   max-width: 49%;
   height: auto;
-  
 }
 /*градиент бордеров картинок наверху*/
-img.img_main:first-child{
-  
+img.img_main:first-child {
   padding: 4px 0px;
   border-left: 4px solid #003333;
   border-right: 4px solid white;
@@ -253,19 +262,21 @@ img.img_main:first-child{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-position: 0 0, 0 100% ;
+  background-position: 0 0, 0 100%;
   background-repeat: no-repeat;
   -webkit-background-size: 100% 20px;
   -moz-background-size: 100% 20px;
-  background-size: 100% 20px;  
-  background-image: -webkit-linear-gradient(left, #003333 0%, white 100%), -webkit-linear-gradient(left, #003333 0%, white 100%);
-  background-image: -moz-linear-gradient(left, #003333 0%, white 100%), -moz-linear-gradient(left, #003333 0%, white 100%);
-  background-image: -o-linear-gradient(left, #003333 0%, white 100%), -o-linear-gradient(left, #003333 0%, white 100%);
-  background-image: linear-gradient(to right, #003333 0%, white 100%), linear-gradient(to right, #003333 0%, white 100%);
+  background-size: 100% 20px;
+  background-image: -webkit-linear-gradient(left, #003333 0%, white 100%),
+    -webkit-linear-gradient(left, #003333 0%, white 100%);
+  background-image: -moz-linear-gradient(left, #003333 0%, white 100%),
+    -moz-linear-gradient(left, #003333 0%, white 100%);
+  background-image: -o-linear-gradient(left, #003333 0%, white 100%),
+    -o-linear-gradient(left, #003333 0%, white 100%);
+  background-image: linear-gradient(to right, #003333 0%, white 100%),
+    linear-gradient(to right, #003333 0%, white 100%);
 }
-img.img_main:nth-child(3){
-
-
+img.img_main:nth-child(3) {
   padding: 4px 0px;
   border-radius: 5px;
   border-left: 4px solid white;
@@ -274,17 +285,19 @@ img.img_main:nth-child(3){
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-position: 0 0, 0 100% ;
+  background-position: 0 0, 0 100%;
   background-repeat: no-repeat;
   -webkit-background-size: 100% 20px;
   -moz-background-size: 100% 20px;
-  background-size: 100% 20px;  
-  background-image: -webkit-linear-gradient(right, white 0%, #003333 100%), -webkit-linear-gradient(right, white 0%, #333300 100%);
-  background-image: -moz-linear-gradient(right, white 0%, #003333 100%), -moz-linear-gradient(right, white 0%, #333300 100%);
-  background-image: -o-linear-gradient(right, white 0%, #003333 100%), -o-linear-gradient(right, white 0%, #333300 100%);
-  background-image: linear-gradient(to right, white 0%, #839494 100%), linear-gradient(to right, white 0%, #003333 100%);
-
-
+  background-size: 100% 20px;
+  background-image: -webkit-linear-gradient(right, white 0%, #003333 100%),
+    -webkit-linear-gradient(right, white 0%, #333300 100%);
+  background-image: -moz-linear-gradient(right, white 0%, #003333 100%),
+    -moz-linear-gradient(right, white 0%, #333300 100%);
+  background-image: -o-linear-gradient(right, white 0%, #003333 100%),
+    -o-linear-gradient(right, white 0%, #333300 100%);
+  background-image: linear-gradient(to right, white 0%, #839494 100%),
+    linear-gradient(to right, white 0%, #003333 100%);
 }
 /**/
 .logo_center {
@@ -299,7 +312,7 @@ img.img_main:nth-child(3){
 }
 
 /*club*/
-.club{
+.club {
   position: relative;
 }
 h2 {
@@ -317,7 +330,7 @@ p.club_str {
 }
 
 .main_item {
-  padding:4px;
+  padding: 4px;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
@@ -593,41 +606,30 @@ span.text_place.text {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 43%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 72px;
   transition: 0, 6s ease;
   border-radius: 0px 3px 3px 0;
 }
+.prev {
+  left: -7%;
+  color: #129772;
+}
+
 .next {
-  right: 0;
+  right: -7%;
+  color: #129772;
+
   border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.text-slyder {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 15px 15px;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-}
-
-.numbertext {
-  color: white;
-  position: relative;
-  left: 20px;
-  top: 30px;
-  font-size: 18px;
 }
 
 .dot {
@@ -672,56 +674,53 @@ span.text_place.text {
 }
 
 @media screen and (min-width: 1300px) {
-  .logo-main-conteiner{
+  .logo-main-conteiner {
     position: relative;
   }
-div.logo_main{
-  width: 104%;
-  position: relative;
-  left:-2%;
-  
-}
-/*треугольнички закругление у лого маин*/
-div.logo_main::after {
-  content: " ";
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: -0px;
-  top: 100%;
-  border-width: 4px 12px;
-  border-style: solid;
-  border-color: #003333 #003333 transparent transparent;
-}
+  div.logo_main {
+    width: 104%;
+    position: relative;
+    left: -2%;
+  }
+  /*треугольнички закругление у лого маин*/
+  div.logo_main::after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -0px;
+    top: 100%;
+    border-width: 4px 12px;
+    border-style: solid;
+    border-color: #003333 #003333 transparent transparent;
+  }
 
-div.logo_main::before {
-  content: " ";
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: 98.1%;
-  top: 100%;
-  border-width: 4px 10px;
-  border-style: solid;
-  border-color: #003333 transparent  transparent #003333  ;
-}
-/*----*/
-  body{
-
+  div.logo_main::before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 98.1%;
+    top: 100%;
+    border-width: 4px 10px;
+    border-style: solid;
+    border-color: #003333 transparent transparent #003333;
+  }
+  /*----*/
+  body {
     background-image: url(img/fon1.jpg);
   }
   .red-string-conteiner {
     position: absolute;
     left: -20px;
-    
+
     margin-top: 20px;
 
     display: flex;
     justify-content: space-between;
     position: relative;
-    width:   calc(100% + 40px);
+    width: calc(100% + 40px);
   }
-
 
   .red-string-conteiner::after {
     content: " ";
@@ -744,18 +743,16 @@ div.logo_main::before {
     top: 100%;
     border-width: 5px 10px;
     border-style: solid;
-    border-color: #4b0000 transparent  transparent #4b0000  ;
+    border-color: #4b0000 transparent transparent #4b0000;
   }
-  
 }
 
 @media screen and (max-width: 1000px) {
-  html{
+  html {
     padding: 0;
-    margin:0;
+    margin: 0;
   }
-  
-  
+
   p.text {
     text-align: justify;
     width: 100%;
