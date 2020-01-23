@@ -17,7 +17,8 @@ body {
   opacity: 0.7;
   background-color: white;
   border-radius: 100%;
-  z-index: 1000;;
+  z-index: 1000;
+  font-size: 0px;
 }
 .upper:hover{
   opacity: 1;
@@ -556,39 +557,66 @@ p.place {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 30px;
+  padding-left: 20px;
   box-sizing: border-box;
   width: 50%;
 }
 
 div .conteiner-maps {
   box-sizing: border-box;
-  border: 10px solid #e5e5e5;
+  border: 3px solid #129772;
   width: 50%;
   height: 100%;
 }
 
 img.img_place {
-  width: 50%;
+  width: 49%;
   box-sizing: border-box;
-  padding: 5px;
-  border: 4px solid #940000;
+  
+  border: 3px solid #129772;
+  z-index: 5;
 }
 
 .conteiner_place {
+  padding: 10px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: calc(100% - 10px) ;
+  position: relative;
+  z-index: 5;
 }
+/* низ*/
+.border-top-left,.border-bottom-right{
+  position: absolute;
+  width: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #d6f3e8;
 
+}
+.border-top-left{
+  top: -5px;
+  left: -5px;
+  z-index: 3;
+
+}
+.border-bottom-right{
+  bottom: -5px;
+  right: -5px;
+  z-index: 3;
+}
+/* ----*/
 span.text_place.text {
   box-sizing: border-box;
-  border-bottom: 10px solid #e5e5e5;
-  margin: 10px 0px 0px 0px;
+  
+    
+  margin: 20px 0px 0px 0px;
   padding: 0px;
-  background-color: #e5e5e5;
+  background-color: #d6f3e8;
   display: flex;
-  align-items: center;
+  
+  justify-content: center;
 }
 
 /* Слайдер*/
@@ -677,11 +705,13 @@ span.text_place.text {
   .logo-main-conteiner {
     position: relative;
   }
+
   div.logo_main {
     width: 104%;
     position: relative;
     left: -2%;
   }
+  
   /*треугольнички закругление у лого маин*/
   div.logo_main::after {
     content: " ";
@@ -797,12 +827,18 @@ span.text_place.text {
     margin: 0 auto;
     width: 90%;
   }
+  .conteiner-vertical{
+    
+    flex-flow: column-reverse;
+  }
   .conteiner-vertical.img_place {
     width: 90%;
     margin: 0 auto;
     padding-left: 0;
   }
+  
   .conteiner_place {
+    margin: 20px auto;
     display: flex;
     justify-content: space-around;
   }
