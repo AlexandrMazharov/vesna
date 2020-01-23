@@ -626,6 +626,7 @@ span.text_place.text {
 }
 
 @media screen and (min-width: 1300px) {
+  
   .red-string-conteiner {
     position: absolute;
     left: -20px;
@@ -651,6 +652,16 @@ span.text_place.text {
 }
 
 @media screen and (max-width: 1000px) {
+  html{
+    padding: 0;
+    margin:0;
+  }
+  body{
+    background: white;
+  }
+  .shadow {
+    box-shadow: 0 0px 0px 0px;
+  }
   p.text {
     text-align: justify;
     width: 100%;
