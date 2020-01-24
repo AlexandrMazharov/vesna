@@ -317,13 +317,13 @@ p.club_str {
 }
 
 .main_item {
-  padding: 4px;
+  
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
 }
 .main_item:last-child{
-flex-direction: column;
+padding-bottom: 40px;
 
 }
 .img-right {
@@ -545,17 +545,18 @@ p.place {
 .conteiner-vertical {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-left: 20px;
+  justify-content: space-between;  
   box-sizing: border-box;
   width: 100%;
+  padding: 0 20%;
 }
 
-div .conteiner-maps {
+div.conteiner-maps {
   box-sizing: border-box;
   border: 3px solid #129772;
-  width: 100%;
+  max-width: 60%;
   height: 100%;
+  margin: 0 20%;
 }
 
 img.img_place {
@@ -598,9 +599,8 @@ img.img_place {
 /* ----*/
 span.text_place.text {
   box-sizing: border-box;
-  
-    
-  margin: 20px 0px 0px 0px;
+  margin-top:32px;
+  margin-bottom: 40px;      
   padding: 0px;
   background-color: #d6f3e8;
   display: flex;
