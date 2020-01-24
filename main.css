@@ -790,9 +790,7 @@ span.text_place.text {
   }
 
   p.text {
-    box-sizing: border-box;    
-    
-    
+    box-sizing: border-box;            
   }
   div .table-column {
     text-align: justify;
