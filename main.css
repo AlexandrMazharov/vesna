@@ -567,7 +567,7 @@ img.img_place {
   z-index: 5;
 }
 
-.conteiner_place {
+.conteiner_place {  
   padding: 10px;
   box-sizing: border-box;
   display: flex;
