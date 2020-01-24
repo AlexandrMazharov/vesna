@@ -318,11 +318,14 @@ p.club_str {
 
 .main_item {
   padding: 4px;
-  margin-top: 10px;
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
 }
+.main_item:last-child{
+flex-direction: column;
 
+}
 .img-right {
   box-sizing: border-box;
   display: inline-block;
