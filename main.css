@@ -240,6 +240,10 @@ img.img_main {
   max-width: 49%;
   height: auto;
 }
+img.img_main:first-child{
+  position:relative ;
+  left:-2px;
+}
 /*градиент бордеров картинок наверху*/
 img.img_main:first-child {
   padding: 4px 0px;
@@ -707,9 +711,7 @@ span.text_place.text {
   opacity: 1;
 }
 @media screen and (min-width: 1300px) {
-  .logo-main-conteiner {
-    position: relative;
-  }
+
 
   div.logo_main {
     width: 104%;
@@ -719,18 +721,20 @@ span.text_place.text {
   
   
   /*треугольнички закругление у лого маин*/
+  /*левый*/
   div.logo_main::after {
     content: " ";
     position: absolute;
     width: 0;
     height: 0;
-    left: -0px;
+    left: 2px;
     top: 100%;
     border-width: 4px 12px;
     border-style: solid;
     border-color: #003333 #003333 transparent transparent;
+    z-index: -1;
   }
-
+/*правый*/
   div.logo_main::before {
     content: " ";
     position: absolute;
