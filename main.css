@@ -392,6 +392,9 @@ h3.heading::before {
   color     : #01474a;
   text-align: center;
 }
+p#tea_club_text_id{
+  text-align: justify;
+}
 
 .red-string-conteiner {
   width     : 100%;
