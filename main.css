@@ -394,6 +394,7 @@ h3.heading::before {
 }
 p#tea_club_text_id{
   text-align: justify;
+  text-indent: 1.5em;
 }
 
 .red-string-conteiner {
