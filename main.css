@@ -608,6 +608,7 @@ img.img_place {
   width          : calc(60% - 10px);
   position       : relative;
   z-index        : 5;
+  margin         : 20px auto;
 
 
 
