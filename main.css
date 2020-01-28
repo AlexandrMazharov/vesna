@@ -558,7 +558,7 @@ p.place {
 div.conteiner-maps {
   box-sizing: border-box;
   border: 3px solid #129772;
-  max-width: 60%;
+  width: 60%;
   height: 100%;
   margin: 0 20%;
 }
