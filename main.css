@@ -328,8 +328,17 @@ p.club_str {
 }
 .main_item:last-child{
 padding-bottom: 40px;
+flex-direction: column-reverse;
 
 }
+
+
+span.text_place{
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  
+  }
 .img-right {
   box-sizing: border-box;
   display: inline-block;
@@ -545,7 +554,7 @@ img.icons_vk_inst {
 p.place {
   font-size: 30px;
 }
-
+/*
 .conteiner-vertical {
   display: flex;
   flex-direction: column;
@@ -554,7 +563,7 @@ p.place {
   width: 100%;
   padding: 0 20%;
 }
-
+*/
 div.conteiner-maps {
   box-sizing: border-box;
   border: 3px solid #129772;
@@ -576,10 +585,16 @@ img.img_place {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 10px) ;
+  width: calc(60% - 10px) ;
   position: relative;
   z-index: 5;
+
+
+
 }
+
+
+
 /* низ*/
 .border-top-left,.border-bottom-right{
   position: absolute;
@@ -845,8 +860,7 @@ span.text_place.text {
   }
   .conteiner-vertical.img_place {
     width: 90%;
-    margin: 0 auto;
-    padding-left: 0;
+    margin: 0 auto;    
   }
   
   .conteiner_place {
