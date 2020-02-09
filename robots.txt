@@ -2,6 +2,9 @@ User-agent: *
 Disallow: /tmp/ 
 Sitemap: https://https://www.vesna-tea-club.ru/sitemap.xml
 Clean-param: ref /some_dir/get_book.pl
+<<<<<<< HEAD:ROBOTS.TXT
 
 User-agent: Yandex
 Host: https://www.vesna-tea-club.ru/
+=======
+>>>>>>> 0a2b97a9790db0b7648f2d781d476367f86d36bc:robots.txt
