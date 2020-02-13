@@ -1,7 +1,8 @@
 h1 {
-    margin:0;
-    text-indent: -9999px;
-    display: hidden;
+font-size:0px;
+    position: absolute;
+    z-index: 1;
+    margin:0;        
     width  : 0px;
     height : 0px;
 }
@@ -27,6 +28,8 @@ body {
   }
   */
 .footer {
+    position: relative;
+    z-index: 10;
     box-sizing      : border-box;
     width           : 100%;
     background-color: #003333;
