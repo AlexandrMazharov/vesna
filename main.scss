@@ -73,7 +73,7 @@ span.footer {
 .wrapper {
     background-color: #fafafa;
     margin          : 0 auto;
-    max-width       : 1230px;
+    max-width       : 930px;
 }
 
 .conteiner {
@@ -98,7 +98,7 @@ span.footer {
 
 /*кнопки главное меню*/
 .nav_item_link {
-    font-size      : 36px;
+    font-size      : 30px;
     text-decoration: none;
     position       : relative;
     display        : inline-block;
@@ -332,7 +332,7 @@ h2 {
     font-weight: normal;
     font-style : normal;
     text-align : center;
-    font-size  : 36px;
+    font-size  : 30px;
     color      : #b62d00;
 }
 
@@ -392,7 +392,7 @@ span.text_place {
 .heading {
     font-weight: normal;
     color      : #129772;
-    font-size  : 36px;
+    font-size  : 30px;
     text-align : center;
     margin     : 10px 0px;
 }
@@ -521,7 +521,7 @@ div.red-string.item:last-child {
 .button-link {
     box-sizing      : border-box;
     border-radius   : 10px;
-    font-size       : 36px;
+    font-size       : 30px;
     background-color: #129772;
     color           : white;
     padding         : 5px;
@@ -544,14 +544,14 @@ div.red-string.item:last-child {
     background     : url(img/tell_icon.png);
     display        : inline-block;
     vertical-align : middle;
-    width          : 35px;
-    height         : 35px;
+    width          : 30px;
+    height         : 30px;
     background-size: 100%;
 }
 
 .button-link:hover {
     border-radius   : 10px;
-    font-size       : 36px;
+    font-size       : 30px;
     background-color: white;
     color           : #129772;
     border-color    : #129772;
@@ -564,8 +564,8 @@ div.red-string.item:last-child {
     background     : url(img/tell_icon_blue.png);
     display        : inline-block;
     vertical-align : middle;
-    width          : 35px;
-    height         : 35px;
+    width          : 30px;
+    height         : 30px;
     background-size: 100%;
 }
 
@@ -587,7 +587,7 @@ img.icons_vk_inst {
 }
 
 p.place {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 /*
@@ -801,7 +801,7 @@ span.text_place.text {
         height      : 0;
         left        : 98.1%;
         top         : 100%;
-        border-width: 4px 10px;
+        border-width: 4px 7px;
         border-style: solid;
         border-color: #003333 transparent transparent #003333;
     }
@@ -840,7 +840,7 @@ span.text_place.text {
         position    : absolute;
         width       : 0;
         height      : 0;
-        left        : 98.5%;
+        left        : 98.0%;
         top         : 100%;
         border-width: 5px 10px;
         border-style: solid;
